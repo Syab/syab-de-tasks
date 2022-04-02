@@ -24,3 +24,5 @@ python task4_solution.py
 You can open ``task4_solution.ipynb`` in your kernel and run the entire notebook.
 
 ## Results
+
+![Screenshot 2022-04-03 at 02 20 49](https://user-images.githubusercontent.com/14856777/161396253-8f516784-9687-405a-8f46-0b9781dc5550.png)
