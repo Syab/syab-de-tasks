@@ -4,7 +4,6 @@ import os
 import time
 
 start = time.time()
-# Dictionary of DBs and mock data file source
 db_files = {
     'car_manufacturers' : './DATA/manufacturers.csv',
     'car_models' : './DATA/models.csv',
@@ -73,7 +72,7 @@ try:
     )
 
     query2_results = cursor.fetchall()
-    print("RESULTS FOR QUERY 2 (FROM HIGHEST SPENDER):")
+    print("RESULTS FOR QUERY 2 (FROM HIGHEST SALES):")
     for row in query2_results:
         print("Month: ", row[0], "| model_name: ", row[1], "| model_id: ", row[2], "| count: ", row[3],"\n")
 
