@@ -15,6 +15,8 @@ python task2_solution.py
 
 ## Results
 
+![alt text](https://github.com/Syab/syab-de-tasks/tree/main/02_Databases/ER-Diagram)
+
 Query 1:
 
 ![Screenshot 2022-04-03 at 01 59 42](https://user-images.githubusercontent.com/14856777/161395704-b138dbf4-71ba-418d-b866-974dbc7ac837.png)
