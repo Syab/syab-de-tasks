@@ -1,3 +1,5 @@
+SET timezone = 'Asia/Singapore';
+
 -- Create Car Manufacturer
 CREATE TABLE IF NOT EXISTS CAR_MANUFACTURERS (
   manufacturer_id INT NOT NULL,
@@ -44,6 +46,7 @@ CREATE TABLE IF NOT EXISTS SALESPERSONS (
 -- Create Car Transaction
 CREATE TABLE IF NOT EXISTS CAR_TRANSACTIONS (
    transaction_id BIGINT NOT NULL,
+   transaction_date DATE NOT NULL DEFAULT CURRENT_DATE,
    customer_id INT NOT NULL,
    salesperson_id INT NOT NULL,
    model_id INT NOT NULL,
