@@ -15,7 +15,10 @@ python task2_solution.py
 
 ## Results
 
-![alt text](https://github.com/Syab/syab-de-tasks/tree/main/02_Databases/ER-Diagram/car-store-er-diagram.jpg)
+ER Diagram
+
+![data_eng_test](https://user-images.githubusercontent.com/14856777/161396135-823f7fba-e9d2-46e6-88a6-c1c4d29785c5.jpg)
+
 
 Query 1:
 
