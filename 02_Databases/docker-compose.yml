@@ -16,5 +16,3 @@ services:
           - ./postgres-data:/var/lib/postgresql/data
           # create tables on container start up
           - ./SQL/create_tables.sql:/docker-entrypoint-initdb.d/create_tables.sql
-          # populate tables after contianer start up
-          # - ./SQL/populate_tables.sql:/docker-entrypoint-initdb.d/populate_tables.sql
