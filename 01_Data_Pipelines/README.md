@@ -14,4 +14,10 @@ To exit the cron type ``esc`` followed by ``wq``.
 
 3. You can add additional data files in the same format as dataset 1 and 2 into the folder ``DATA/``
 
+## Explanation
+
+``processfile.sh`` when run, will check if there are any new data files to be processed in the DATA folder. If there are new files, it will run ``processfile.py``. 
+
+Data files that have been processed successfully will be moved to processed folder, with the output results located in ``OUTPUT`` folder. Otherwise, unprocessed data files will be moved to ``unprocessed`` folder.
+
 ## Results
