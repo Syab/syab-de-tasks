@@ -18,6 +18,7 @@ You are designing data infrastructure on the cloud for a company whose main busi
 ### Non-Functional Requirements
 - High availability - almost zero downtime
 - Highly reliable - no data loss when images are being uploaded
+- 7 day retension period in KStreams
 
 ## Architecture Design
 <b>High Level Architecture</b>
@@ -26,10 +27,20 @@ You are designing data infrastructure on the cloud for a company whose main busi
 
 Cloud Provider of Choise : AWS
 
+- Uploaded images that have been processed will be written into Kafka topic and stream
+- sink connectors to sink user data and image meta data into relational database (AWS RDS)
+- Actual images will be stored in Hadoop Cluster (AWS HDFS CLuster)
+- For analytics and visualization, ingest data from RDS to Elasticsearch, and utilise Kibana to create dashboard on user analytics.
+
 <b>Kafka Infrastructure</b>
 
 ![Diagrams-kafka-onprem](https://user-images.githubusercontent.com/14856777/161424701-505feb83-57bf-4857-91b1-6f24a5d82a9e.jpg)
 
+- Provision at least 3 instances of each service on Elastic Kubernetes Service
+- To allow for fault tolerance and reliability
+- Utilise Confluent Kafka and supplementary images
+- Provision application load balancer in front of each service
+- Kafka has a default of 7 day retension period, hence meets Task requiement objectives.
 
 <b>Database Model</b>
 
