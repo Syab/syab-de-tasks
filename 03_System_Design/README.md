@@ -47,3 +47,9 @@ Cloud Provider of Choice : AWS
 ![data_eng_test-Page-3](https://user-images.githubusercontent.com/14856777/161429455-74b6c9da-8ce5-4616-b1ac-079e1c613835.jpg)
 
 - Since User info and image metadata can be stored and need to be referenced easily, these information can be stored in a traditional relational database. 
+
+
+<b>Tools for Provisioning, Monitoring</b>
+
+- Terraform : cloud resource provisioning
+- Confluent Control Centre : Kafka Monitoring
