@@ -14,7 +14,6 @@ You are designing data infrastructure on the cloud for a company whose main busi
 ### Functional Requirements
 - Users able to upload photos
 - Users able to view photos
-- 
 
 ### Non-Functional Requirements
 - High availability - almost zero downtime
@@ -24,3 +23,6 @@ You are designing data infrastructure on the cloud for a company whose main busi
 <b>High Level Architecture</b>
 
 ![high-level-architecture](https://user-images.githubusercontent.com/14856777/161397571-f0109597-d733-4714-bb39-453e56ba25b0.jpg)
+
+<b>Database Model</b>
+
