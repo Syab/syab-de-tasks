@@ -19,10 +19,17 @@ You are designing data infrastructure on the cloud for a company whose main busi
 - High availability - almost zero downtime
 - Highly reliable - no data loss when images are being uploaded
 
-
+## Architecture Design
 <b>High Level Architecture</b>
 
 ![high-level-architecture](https://user-images.githubusercontent.com/14856777/161397571-f0109597-d733-4714-bb39-453e56ba25b0.jpg)
+
+Cloud Provider of Choise : AWS
+
+<b>Kafka Infrastructure</b>
+
+![Diagrams-kafka-onprem](https://user-images.githubusercontent.com/14856777/161424701-505feb83-57bf-4857-91b1-6f24a5d82a9e.jpg)
+
 
 <b>Database Model</b>
 
