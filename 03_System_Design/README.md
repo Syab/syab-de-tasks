@@ -25,11 +25,11 @@ You are designing data infrastructure on the cloud for a company whose main busi
 
 ![high-level-architecture](https://user-images.githubusercontent.com/14856777/161397571-f0109597-d733-4714-bb39-453e56ba25b0.jpg)
 
-Cloud Provider of Choise : AWS
+Cloud Provider of Choice : AWS
 
 - Uploaded images that have been processed will be written into Kafka topic and stream
-- sink connectors to sink user data and image meta data into relational database (AWS RDS)
-- Actual images will be stored in Hadoop Cluster (AWS HDFS CLuster)
+- JDBC Sink connectors to sink user data and image meta data into relational database (AWS RDS)
+- Actual images will be stored in Hadoop Cluster (AWS HDFS CLuster) - Hadoop Sink Connectors.
 - For analytics and visualization, ingest data from RDS to Elasticsearch, and utilise Kibana to create dashboard on user analytics.
 
 <b>Kafka Infrastructure</b>
@@ -44,3 +44,4 @@ Cloud Provider of Choise : AWS
 
 <b>Database Model</b>
 
+- Since User info and image metadata can be stored and need to be referenced easily, these information can be stored in a traditional relational database. 
