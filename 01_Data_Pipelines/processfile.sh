@@ -1,10 +1,16 @@
 #!/bin/bash
 
 mkdir -p OUTPUT
-mkdir -p processed
-chmod -R 766 processed
+mkdir -p processed unprocessed
+chmod -R 766 processed/ unprocessed
 
-fileList=$(ls DATA/*.csv)
+fileList=$(ls ./DATA/*.csv)
+
+if [[ ${fileList} == '' ]]
+then
+    echo "No new files to process" >> error.log
+    exit 1
+fi
 
 for file in ${fileList}; do
     echo $file
@@ -13,7 +19,7 @@ for file in ${fileList}; do
     
     if [[ ${dumpContent} == "OK" ]]
     then
-        echo "File processing OK"
+        echo "File processing OK" >> out.log
         mv ${file} processed/
     else
         mv ${file} unprocessed/

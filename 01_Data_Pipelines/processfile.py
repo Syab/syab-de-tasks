@@ -8,7 +8,7 @@ filename = sys.argv[1]
 # print(filename)
 
 now = datetime.now()
-dt_string = now.strftime("%Y-%m-%d_%H%M%S")
+dt_string = now.strftime("%Y-%m-%d_%H%M%S_%f")[:-3]
 
 outputpath = './output/'+str(dt_string)+'_output.csv'
 
