@@ -23,3 +23,9 @@ Data files that have been processed successfully will be moved to processed fold
 ## Results
 
 ![Screenshot 2022-04-20 at 13 52 31](https://user-images.githubusercontent.com/14856777/164160929-f30ae6f2-c599-4b8b-b7ee-364ef8cc186f.png)
+
+
+![Screenshot 2022-04-20 at 14 05 08](https://user-images.githubusercontent.com/14856777/164166381-9251cc5a-65ed-445b-bc5a-38df6a52e30c.png)
+
+
+![Screenshot 2022-04-20 at 14 05 46](https://user-images.githubusercontent.com/14856777/164166409-664b194d-169d-4c1f-a287-3497338a2ffb.png)
