@@ -21,3 +21,5 @@ To exit the cron type ``esc`` followed by ``wq``.
 Data files that have been processed successfully will be moved to processed folder, with the output results located in ``OUTPUT`` folder. Otherwise, unprocessed data files will be moved to ``unprocessed`` folder.
 
 ## Results
+
+![Screenshot 2022-04-20 at 13 52 31](https://user-images.githubusercontent.com/14856777/164160929-f30ae6f2-c599-4b8b-b7ee-364ef8cc186f.png)
