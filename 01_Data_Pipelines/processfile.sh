@@ -14,7 +14,7 @@ fi
 
 for file in ${fileList}; do
     echo $file
-    python processfile.py $file > dump.txt
+    /usr/local/bin/python processfile.py $file > dump.txt
     dumpContent=$(cat dump.txt)
     
     if [[ ${dumpContent} == "OK" ]]

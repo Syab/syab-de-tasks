@@ -130,3 +130,5 @@ dmypy.json
 
 postgres-data/*
 database.ini
+
+POSTGRES_WORKSPACE
